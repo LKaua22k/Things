@@ -18,7 +18,9 @@ while(p != 3){
     } else{
       alert(items)
     }
- }else{
+ }else if(p === 3){
     alert("Tchau")
+ }else{
+    alert("invalido")
  }
 }
